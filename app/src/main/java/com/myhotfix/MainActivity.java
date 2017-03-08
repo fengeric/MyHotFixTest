@@ -13,6 +13,7 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
         
         tv = (TextView) findViewById(R.id.myfix_tv_text);
-        tv.setText("这是修复后");
+        tv.setText("这是修复前");
+        // tv.setText("这是修复后");
     }
 }
